@@ -24,13 +24,13 @@ module.exports = {
 			new ButtonBuilder()
 			.setLabel('GitHub Repository')
 			.setStyle(ButtonStyle.Link)
-			.setURL("https://github.com/dumprr/Sentaku")
+			.setURL("https://github.com/dumprr/Trudare")
 			.setEmoji("🐱")
 		)
 
 		const HelpEmbed = new EmbedBuilder()
 		.setAuthor({
-			url: `https://github.com/dumprr/Sentaku`,
+			url: `https://github.com/dumprr/Trudare`,
 			name: 'dumprr/Trudare '
 		})
 		.setColor('Orange')
@@ -48,7 +48,7 @@ module.exports = {
 			{name: "Attributions", value: `Based off of dumprr/Sentaku git repo\nChanged from multipurpose to fun bot`}
 		)
 	    .setFooter({
-			text: `Requested by: ${interaction.user.tag}`,
+			text: `Made in Discord.js with love!`,
 			iconURL: interaction.user.avatarURL(),
 		  })
 		await interaction.reply({ embeds: [HelpEmbed], components: [ButtonsRow] });

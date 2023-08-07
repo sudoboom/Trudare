@@ -3,7 +3,7 @@
 ### If you use Trudare (or its base Sentaku), you must credit it as the open source base.
 ---
 # Bugs / To Add
-none rn
+just like make the buttons work on truth and dare stuff 
 ---
 # How To Set-up
 1. Go into your IDE and clone this git repository
